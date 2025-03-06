@@ -55,7 +55,7 @@ public class Atm extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("Deposite");
+		JButton btnNewButton = new JButton("Deposit");
 		btnNewButton.addActionListener(new ActionListener() {
 		    public void actionPerformed(ActionEvent e) {
 		        try {
@@ -113,7 +113,7 @@ public class Atm extends JFrame {
 		lblNewLabel.setBounds(148, 30, 358, 35);
 		contentPane.add(lblNewLabel);
 		
-		JButton btnNewButton_2 = new JButton("Exite");
+		JButton btnNewButton_2 = new JButton("Exit");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.exit(0);
